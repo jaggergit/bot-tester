@@ -10,3 +10,8 @@ functions:
     environment:
       write_debug: true
       combine_output: false
+      gateway_hostname: gateway
+      positive_threshold: 0.25
+    environment_file:
+    - env.yml
+    
